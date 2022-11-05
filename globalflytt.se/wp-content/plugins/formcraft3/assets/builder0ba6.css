@@ -1,0 +1,157 @@
+#mp-cover .help-link
+{
+	padding: 14px 0;
+	margin-bottom: 0;
+}
+.formcraft-css .fc-pagination .error-count
+{
+	color: white;
+	background-color: red;
+	border-radius: 100px;
+	position: absolute;
+	top: -13px;
+	right: -10px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	z-index: 999;
+	padding: 0px 5px;
+	font-size: 10px;
+	line-height: 16px;
+	height: 20px;
+	border: 2px solid white;
+	box-shadow: 0px 0px 3px rgba(0,0,0,.3);
+}
+.form-live .fc-form .form-page.active
+{
+	display: block;
+}
+.form-live .fc-form .form-page
+{
+	display: none;
+}
+html body .formcraft-css .page-next
+{
+	position: relative;
+}
+html body .formcraft-css .prev-next .spin-cover
+{
+	display: none;
+	font-size: 1.7em;
+	background-color: white;
+}
+html body .formcraft-css .prev-next .loading .spin-cover
+{
+	display: block;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+html .formcraft-css .fc-pagination-cover
+{
+	display: none;
+}
+html .formcraft-css .prev-next
+{
+	display: block;
+	max-width: 100%;
+}
+html .formcraft-css .fc-pagination-1,
+html .formcraft-css .fc-pagination-0,
+html .formcraft-css .prev-next-1,
+html .formcraft-css .prev-next-0
+{
+	display: none;
+}
+
+@media (max-width : 668px) {
+	html
+	{
+		min-height: 100%;
+	}
+	html .form-cover
+	{
+		position: static;
+		min-height: 100%;
+		padding-bottom: 49px;
+		-webkit-perspective: none;
+		perspective: none;
+	}
+	html .form-live
+	{
+		position: static;
+	}
+	html .dedicated-page .formcraft-css .form-cover .prev-next
+	{
+		width: 100%;
+		margin: 0px auto;
+		max-width: 100%;
+		box-shadow: none;
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		border-top: 1px solid #e8e8e8;
+		z-index: 999;
+	}	
+	html .formcraft-css .fc-pagination
+	{
+		max-width: 92%;
+	}
+	html .formcraft-css .fc-pagination
+	{
+		position: static !important;
+		box-shadow: none !important;
+		max-width: 100%;
+		width: 100%;
+		overflow: auto;
+		padding-bottom: 0;
+		padding-top: 0;
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+		margin: 0 auto;
+		text-align: left;
+		background: rgba(0,0,0,.03) !important;
+		border-bottom: 1px solid #e8e8e8;		
+	}
+	html .formcraft-css .fc-pagination > div::after
+	{
+		content: none !important;
+		display: none !important;
+	}
+	html .formcraft-css .fc-pagination > div
+	{
+		border-right: 1px solid #e8e8e8;
+		text-align: center;
+		padding: 0;
+	}
+	html .formcraft-css .fc-pagination > div:last-child
+	{
+		border-right-width: 0px;
+	}
+	html .formcraft-css .fc-pagination .page-name
+	{
+		font-size: .95em;
+		padding: 15px 17px;
+		width: auto;
+	}
+	html .formcraft-css .fc-pagination .page-number
+	{
+		display: none;
+	}
+	html .formcraft-css .fc-pagination-cover
+	{
+		height: auto;
+	}
+	html body .formcraft-css.form-live
+	{
+		padding-top: 0px;
+	}
+}
+
+
+ 

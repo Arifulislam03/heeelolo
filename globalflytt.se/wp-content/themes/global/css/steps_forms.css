@@ -1,0 +1,569 @@
+.formcraft-css .prev-next .page-prev:hover {
+	color: #e47f2f !important;
+}
+.step-form time {
+	display: none;
+}
+.calc_form_2 {
+	/*margin-top: -190px;*/
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 62px 42px 60px;
+	font-family: Gilroy;
+	margin-bottom: 120px;
+	background: #FFFFFF;
+}
+
+.mt-0 .calc_form_2  {
+	margin-top: 0px;
+}
+.calc_form {
+	/*width: 467.38px;*/
+	/*height: 542px;*/
+	/*width: 100%;
+	background: #FFFFFF;
+ 	box-sizing: border-box;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+ 
+	padding: 62px 42px 60px;
+	font-family: Gilroy;
+	margin-bottom: 120px;*/
+}
+.calc_form h1,  .calc_form h2, .calc_form h3{
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;
+	font-size: 3.5rem;
+	line-height: 43px;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 29px;
+}
+.calc_form p.center {
+	text-align: center;
+}
+ 
+.calc_form h4 {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+	text-align: center;
+	color: #424F66;
+}
+.disp_f {
+	display: flex;
+	margin-top: 80px;
+}
+.calc_form .count_rooms {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000;
+	width: 134px;
+	margin-bottom: 60px;
+}
+.irs--flat {
+	width: 100%;
+	margin-top: -9px;
+}
+.calc_form h5:nth-child(2n) {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.price_desc {
+	font-family: Gilroy;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 150%;
+	color: #424F66;
+	text-align: center;
+	margin-top: 50px;
+}
+.calc_form .irs-min, .calc_form .irs-max {
+	position: absolute;
+	top: 37px;
+	visibility: visible !important;
+}
+.calc_form .irs--flat .irs-handle {
+	top: 22px;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: #ccc;
+}
+.moving_costs_amount {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-top: 30px;
+	color: #424f66;
+}
+.irs--flat .irs-line {
+	height: 5px;
+	background-color: #E5E5E5;
+}
+.irs--flat .irs-bar {
+	height: 5px;
+	background: #424F66;
+}
+.calc_form .irs--flat .irs-handle {
+	top: 19px;
+	width: 15.5px;
+	height: 15.5px;
+	background: #424F66;
+}
+.irs--flat .irs-handle>i:first-child, .irs--flat .irs-handle.state_hover>i:first-child, .irs--flat .irs-handle:hover>i:first-child {
+	background: #424F66;
+}
+.irs--flat .irs-min, .irs--flat .irs-max {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+	color: #000;
+	background: none;
+}
+.irs--flat .irs-single {
+	top: -30px;
+	padding: 0px;
+	background: #FFFFFF;
+	color: #000;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+	text-align: center;
+	/* padding-top: 1.5px; */
+	width: 52px;
+	height: 37px;
+	border: none;
+	/* border: 1px solid; */
+	border: 1px solid #424F66;
+	box-sizing: border-box;
+	border-radius: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 0;
+}
+.irs--flat .irs-single:before {
+	display: none;
+}
+.calc_form .ca {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 18px;
+}
+.calc_form .currency, .calc_form .moving_price_to, .calc_form .moving_price_from, .calc_form .from_to {
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	/* dark */
+	color: #424F66;
+}
+.calc_form .currency {
+	margin-right: 5px;
+}
+.from_to {
+	margin: 0 5px;
+}
+.moving_price_icon {
+	display: flex;
+	background: url(../img/moving_price_icon.png);
+	background-size: cover;
+	height: 24px;
+	width: 24px;
+	position: relative;
+	margin-left: 5px;
+}
+.moving_price_icon span {
+	display: none;
+}
+.moving_price_icon:hover span {
+	display: inline;
+	position: absolute;
+	background: #ffffff;
+	border: 1px solid #e5e5e5;
+	color: #000;
+	padding: 10px;
+	font-size: 12px;
+	width: 224px;
+	line-height: 1.7;
+	left: 7px;
+	top: 7px;
+}
+.calc_form button {
+	background: #e47f31#e47f31;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 150%;
+	color: #FFFFFF;
+	border: none;
+	padding: 16px 32px;
+	/* width: 286px; */
+	margin: 40px auto 0;
+	display: flex;
+	justify-content: center;
+}
+.calc_form button:hover {
+	cursor: pointer;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.calc_form button:focus {
+	outline: none;
+}
+html .formcraft-css .fc-form .form-element .field-cover.customText-cover ul {
+	padding-left: 0px !important;
+}
+.styled_form .formcraft-css .fc-form {
+	box-shadow: none;
+}
+.styled_form ul {
+	list-style: none !important;
+}
+.styled_form ul li:before {
+	content: '';
+	background: url(../img/form_info.svg);
+	background-repeat: no-repeat;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	left: -3px;
+}
+.styled_form .heading-cover span {
+	font-style: normal;
+	font-weight: bold;
+	/*font-size: 36px;*/
+	font-size: 28px;
+	line-height: 49px;
+	/* identical to box height */
+	color: #000000;
+}
+.styled_form input[type=text], .styled_form select, .styled_form input[type=email] {
+	background-color: #FFFFFF !important;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 18px;
+	/* identical to box height */
+	color: #939393;
+}
+.styled_form textarea {
+	border: 1px solid #000000;
+	border-radius: 5px;
+	background-color: #fff !important;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 18px;
+	color: #939393;
+}
+.styled_form input[type=checkbox] {
+	border-color: #000000 !important;
+	background-color: #ffffff !important;
+	border-width: 2px;
+	padding: 2px !important;
+	border-radius: 5px !important;
+	width: 22px;
+	height: 22px;
+	/* display: flex !important; */
+	/* align-items: center; */
+	background-color: #ffffff;
+	margin: 0 15px 0 0;
+}
+.styled_form input[type="radio"]:checked:before {
+	color: #fff;
+	margin-top: 4px;
+	margin-left: 3px;
+}
+.styled_form .form-element-type-checkbox label {
+	width: 100%;
+	font-weight: 600;
+	font-size: 13px !important;
+	line-height: 18px;
+	color: #000000;
+}
+html body .styled_form .formcraft-css .fc-form .form-element .submit-cover.animate-false .submit-button {
+	float: left;
+	width: 142px !important;
+	height: 54px;
+	border-radius: 5px !important;
+	margin: 20px 0;
+	background: #e47f31#e47f31 !important;
+	text-shadow: none;
+	border-radius: 4.09985px !important;
+}
+/*html body .styled_form .form-page.active  button[type="submit"] {
+float: left;
+width: 142px !important;
+height: 54px;
+border-radius: 5px !important;
+margin: 20px 0;
+background: #DE0000 !important;
+border-radius: 4.09985px !important;
+}*/
+
+.styled_form button[type="submit"]:before {
+	display: none;
+}
+.styled_form .main-label span {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 18px;
+	/* identical to box height */
+	color: #000000;
+}
+.styled_form .inactive.page-prev {
+	display: none;
+}
+.styled_form .prev-next {
+	box-shadow: none !important;
+	margin: 0 !important;
+}
+.styled_form .prev-next>div:last-child {
+	border-left: none !important;
+}
+.styled_form .prev-next>div:last-child {
+	display: flex;
+	justify-content: center;
+}
+.styled_form .page-next {
+	width: 142px;
+	padding: 10px 50px;
+	background: #e47f2f;
+	/*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);*/
+	border-radius: 4.09985px;
+	color: #fff;
+}
+.styled_form .page-next:hover {
+	cursor: pointer;
+	color: #fff !important;
+}
+.styled_form .page-next i, .styled_form .page-prev i {
+	display: none;
+}
+.styled_form .page-prev {
+	background: #FFFFFF;
+	width: 144px;
+	padding: 10px 50px;
+	border: 0.81997px solid #e47f2f;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 4.09985px;
+	color: #e47f2f;
+}
+.styled_form .prev-next {
+	padding: 0 25px;
+	float: left;
+}
+.styled_form .formcraft-css .prev-next>div {
+	margin-right: 20px;
+	float: left;
+	width: auto;
+}
+.styled_form .formcraft-css .prev-next>div:last-child {
+	float: left;
+}
+.styled_form .formcraft-css .fc-form .form-element .field-cover [class^="icon-"] {
+	margin: 5px 12px 7px 12px;
+}
+.styled_form .formcraft-css .fc-form .form-element .field-cover [class^="icon-"]::before {
+	color: #000;
+}
+.styled_form .formcraft-css .prev-next .page-prev {
+	/*display: none !important;*/
+}
+#ui-datepicker-div.fc-datepicker table.ui-datepicker-calendar th, #ui-datepicker-div.fc-datepicker table.ui-datepicker-calendar td.ui-datepicker-today a, .formcraft-css .fc-form.fc-form-1 .form-element .star-cover label, html .formcraft-css .fc-form.label-floating .form-element .field-cover.has-focus>span, .formcraft-css .fc-form.fc-form-1 .form-element .customText-cover a, .formcraft-css .fc-form .form-element .slider-cover .range-max, .formcraft-css .fc-form .form-element .slider-cover .range-min, .formcraft-css .prev-next>div span:hover {
+	color: #e47f2f;
+}
+.styled_form .formcraft-css .prev-next .loading .spin-cover {
+	display: none;
+}
+.form-element-field144 button.button {
+	position: absolute !important;
+	left: 161px;
+	top: 6px;
+}
+.styled_form .error {
+	display: none !important;
+}
+.styled_form input[type=checkbox] {
+	margin-top: -3px;
+	top: 0px;
+}
+.styled_form input[type=checkbox]:checked:before {
+	color: #000;
+}
+.styled_form input[type="radio"] {
+	height: 20px;
+	width: 20px;
+}
+.styled_form input[type="radio"]:checked {
+	border-color: #e47f31#e47f31 !important;
+	background-color: #e47f31#e47f31 !important;
+	/*margin-top: 3px;*/
+}
+.styled_form input[type="radio"]:hover {
+	border-color: #e47f31#e47f31 !important;
+}
+.styled_form input[type="radio"]:checked:before {
+	margin-top: 4px;
+}
+.styled_form label:hover>input[type="radio"] {
+	border-color: #ed1b24;
+}
+.styled_form .form-page-3.form-page {}
+.styled_form .last_step_desc {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 20px;
+	color: #939393;
+}
+.styled_form .privacy_policy {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000;
+}
+.styled_form .privacy_policy a {
+	color: #DE0000;
+	;
+}
+.styled_form .final-success {
+	text-align: left !important;
+	padding: 90px 0 !important;
+}
+.styled_form .final-success i {
+	display: none !important;
+}
+.styled_form .final-success strong {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 49px;
+	color: #e47f31#e47f31;
+}
+.styled_form .final-success .send_success {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+	color: #000;
+	margin-top: 20px;
+}
+.cleaning_costs h4 {
+	margin: 0px;
+}
+/* //// attr*/
+
+div[data-identifier=field136] label, div[data-identifier=field152] label {
+	width: 91px !important;
+	float: left;
+	margin-bottom: 20px;
+}
+.steps_3 div[data-identifier=field83] div[data-placement=right] {
+	display: flex !important;
+	flex-wrap: wrap;
+}
+.steps_3 div[data-identifier=field83] label {
+	width: 141px !important;
+	margin-bottom: 10px;
+}
+.form-page .privacy_policy a {
+	color: #e47f31#e47f31 !important;
+}
+.prev-next-4 {}
+@media screen and (max-width:600px) {
+	.calc_form h3 {
+		font-size: 28px;
+		line-height: 32px;
+	}
+	.calc_form h4 {
+		font-weight: normal;
+		font-size: 14px;
+	}
+	.calc_form h5 {
+		width: 173px;
+	}
+	.moving_costs_amount {
+		margin-top: 10px;
+	}
+	.price_desc {
+		margin-top: 30px;
+	}
+	.calc_form_2 {
+		padding: 20px 20px 40px;
+		box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.06), 0px -9px 6px rgba(0, 0, 0, 0.1);
+		margin-bottom: 75px;
+	}
+	.styled_form .heading-cover span {
+		font-size: 28px;
+		line-height: 40px;
+	}
+	.calc_form button {
+		font-size: 16px;
+	}
+	.styled_form .formcraft-css .prev-next>div {
+		width: 100%;
+	}
+	.cleaning_costs h4 {
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.styled_form .final-success {
+		padding: 20px 0 !important;
+	}
+	html .formcraft-css .prev-next>div span {
+		width: 100%;
+	}
+	.moving_price_icon:hover span {
+		right: 10px;
+		top: 22px;
+		left: auto;
+	}
+	.page-next {
+		margin-top: 15px;
+	}
+	html .formcraft-css .fc-form .form-page-content {
+		padding: 0 !important;
+	}
+	html .formcraft-css .fc-form .form-element .form-element-html {
+		padding: 10px 0 !important;
+	}
+	.styled_form .prev-next {
+		padding: 0px;
+		margin-top: 21px !important;
+	}
+	.styled_form.steps_4 {
+		/*padding-bottom: 100px;*/
+	}
+	html body .styled_form .formcraft-css .fc-form .form-element .submit-cover.animate-false .submit-button {
+		width: 100% !important;
+		left: -2px;
+		top: 85px;
+	}
+	.white_block {
+		padding: 20px;
+		margin-bottom: 30px !important;
+	}
+	.white_block_row .wpb_wrapper, .white_block_row .white_block {
+		height: auto;
+	}
+}
